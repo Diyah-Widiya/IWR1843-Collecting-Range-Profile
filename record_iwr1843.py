@@ -62,10 +62,10 @@ def log_fmcw():
         # Update the data and check if the data is okay
         readAndParseData18xx(Dataport)
         time.sleep(0.01)  # Sampling frequency of 30 Hz
-    stop_uwb()
+    stop_fmcw()
 
 
-def stop_uwb():
+def stop_fmcw():
     """ Finish and save IWR files inside a previously defined directory """
     global CLIport, Dataport, byteBuffer
     
