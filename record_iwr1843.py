@@ -5,7 +5,6 @@ import numpy as np
 import os
 
 ''' Parameters configuration'''
-
 # Change the configuration file name
 configFileName = "profile_VitalSigns_20fps.txt"
 # Change Port: please take care with each respective baud rate defined at serialConfig()
@@ -38,11 +37,11 @@ def start_fmcw():
         CLIport.write((i + '\n').encode())
         time.sleep(0.01)
         
-    log_fmcw()
+    fmcw_process()
 
 # ------------------------------------------------------------------
 
-def log_fmcw():
+def fmcw_process():
     """ Read and save complex values coming from IWR """
     
     def readAndParseData18xx(Dataport):
