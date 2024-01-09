@@ -23,7 +23,8 @@ This document will involve data acquisition for range detection on a specific su
 5. Once the flashing process is complete, return the hardware to functional mode, i.e., SOP0 'ON,' SOP1, and SOP2 'OFF.'
 6. Run the code `record_iwr1843.py`.
 7. Read the data using `read_data.ipynb`.
-
+# Noted
+file : profile_VitalSigns_20fps.txt :a configuration file that will be sent to the radar
 # Reference 
 1. [RADAR-WORLD GitHub Repository](https://github.com/alexandrasdl/RADAR-WORLD/tree/main)
 2. [Texas Instrument Documentation](https://www.ti.com/)
