@@ -1,4 +1,4 @@
-```markdown
+
 # IWR1843-Collecting-Range-Profile-
 The provided code is for recording range profiles without using the DCA1000 EVM, utilizing the Vital Sign Labs driver from xWR1642 implemented on the IWR8143 board.
 
@@ -27,4 +27,4 @@ This document will involve data acquisition for range detection on a specific su
 # Reference 
 1. [RADAR-WORLD GitHub Repository](https://github.com/alexandrasdl/RADAR-WORLD/tree/main)
 2. [Texas Instrument Documentation](https://www.ti.com/)
-```
+
