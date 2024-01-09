@@ -13,7 +13,7 @@ This document will involve data acquisition for range detection on a specific su
    - Micro USB cable (included in the EVM package)
    - 5V/2.5A Power Supply
 2. **Download Lab Project: TI mmWave Lab Driver Vital Signs**
-   - [mmwave_automotive_toolbox_3_6_0](mmwave_automotive_toolbox_3_6_0)
+   - [mmwave_automotive_toolbox_3_6_0](https://dev.ti.com/tirex/explore/node?node=AJuqjWdTuol3jtoyFrofqw)
    - Once downloaded, open:
      - The pre-built binaries are located in the folder: \labs\lab0001-driver-vital-signs\vitalSigns_pjt\pre-built-Binaries\xwr16xx_vitalSigns_lab.bin
    - Ensure that you have Uniflash installed from TI. [Download link here](https://www.ti.com/tool/download/UNIFLASH/8.5.0)
