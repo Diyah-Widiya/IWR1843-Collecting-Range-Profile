@@ -22,7 +22,7 @@ This document will involve data acquisition for range detection on a specific su
 4. Ensure that pins are in flash mode during the hardware flash process, where SOP0 and SOP2 should be 'ON.'
 5. Once the flashing process is complete, return the hardware to functional mode, i.e., SOP0 'ON,' SOP1, and SOP2 'OFF.'
 6. Run the code `record_iwr1843.py`.
-7. Read the data using `read.ipynb`.
+7. Read the data using `read_data.ipynb`.
 
 # Reference 
 1. [RADAR-WORLD GitHub Repository](https://github.com/alexandrasdl/RADAR-WORLD/tree/main)
