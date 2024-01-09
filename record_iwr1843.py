@@ -17,9 +17,7 @@ interval = 10  # Set the desired interval in seconds
 CLIport = {}
 Dataport = {}
 byteBuffer = []
-dir =r'D:\DATA PENELITIAN AGUSTUS 2023\Data Collection Series\TI\record'
-
-
+dir =r'D:\DATA PENELITIAN AGUSTUS 2023\Data Collection Series\TI\record' # change with your directory 
 # ------------------------------------------------------------------
 # ------------------------------------------------------------------
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
@@ -61,7 +59,7 @@ def log_fmcw():
     while time.time() - start < interval:
         # Update the data and check if the data is okay
         readAndParseData18xx(Dataport)
-        time.sleep(0.01)  # Sampling frequency of 30 Hz
+        time.sleep(0.01)  
     stop_fmcw()
 
 
