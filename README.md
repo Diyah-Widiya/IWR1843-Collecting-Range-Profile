@@ -1,6 +1,6 @@
 
 # IWR1843-Collecting-Range-Profile-
-The provided code is for recording range profiles without using the DCA1000 EVM, utilizing the Vital Sign Labs driver from xWR1642 implemented on the IWR8143 board.
+The provided code is for recording range profiles without using the DCA1000 EVM, utilizing the Vital Sign Labs driver from xWR1642 implemented on the IWR1843 board.
 
 # Overview IWR1843
 This documentation will outline the process of collecting range profile data from IWR1843 without using DCA1000EVM. It's important to note that the xWR1642 radar is similar to IWR1843, operating at a frequency of 76-81 GHz. The main difference lies in the number of transmit antennas, with xWR1642 having 2-Tx and IWR1843 having 3-Tx. Further details, such as maximum sampling rate, can be found in the [documentation](https://www.ti.com/lit/an/swra656c/swra656c.pdf?ts=1704782078011&ref_url=https%253A%252F%252Fwww.google.com%252F).
